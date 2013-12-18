@@ -1,0 +1,28 @@
+{
+  "name": "lei-php-cgi",
+  "version": "0.0.1",
+  "description": "lei-php-cgi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leizongmin/lei-php-cgi.git"
+  },
+  "keywords": [
+    "language",
+    "compiler",
+    "vm"
+  ],
+  "author": "Zongmin Lei<leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leizongmin/lei-php-cgi/issues"
+  },
+  "dependencies": {
+    "debug": "*",
+    "connect": "*",
+    "uuid": "*"
+  }
+}
